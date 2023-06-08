@@ -10,7 +10,7 @@ import traceback
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv('/Users/zachpinto/Desktop/dev/silhouette/zip-code-map/data/data_final.csv')
+    df = pd.read_csv('data/data_final.csv')
     return df
 
 
