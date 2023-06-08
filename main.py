@@ -65,7 +65,7 @@ def main():
 
     st.title('Zip Code/City Information')
 
-    location = st.text_input("Enter a City (eg Green Island, NY) or a Zip Code to begin")
+    location = st.text_input("Enter a City (eg Green Island, NY) or a Zip Code to begin. After you have done so, scroll below the map to see relevant demographic data inside of the area you selected.")
     radius = st.slider("Enter Radius (in Kilometers)", min_value=1, max_value=100, value=50, step=1)
 
     if st.button("Search"):
